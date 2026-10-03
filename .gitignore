@@ -1,8 +1,4 @@
-# Add repo-specific ignores here.
-# Common noise:
-.DS_Store
-*.log
-node_modules/
+# Python bytecode and the eval report CI writes.
 __pycache__/
-.venv/
-dist/
+*.pyc
+report.md
